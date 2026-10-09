@@ -1,6 +1,6 @@
 // Lets the web version open with no signal. The app files are saved on the phone and opened from there first,
 // so a dead-zone launch never waits on the network. The dispensary list is saved separately by the app itself.
-const VERSION="v6";
+const VERSION="v11";
 const SHELL = ["./", "index.html", "logo.png", "splash-art.jpg", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png", "icons/favicon-32.png"];
 
 self.addEventListener("install", e => {
